@@ -1,0 +1,29 @@
+
+.trx_popup {
+	-webkit-animation-name: fadeIn_popup;
+	animation-name: fadeIn_popup;
+}
+.trx_popup.close {
+	-webkit-animation-name: fadeOut_popup;
+	animation-name: fadeOut_popup;
+}
+/* Custom styles
+*******************************/
+.trx_popup_close:before,
+.trx_popup_close:after {
+background-color: #ffffff;
+}
+.trx_popup_inner .trx_popup_subtitle {
+color: #ffffff;
+}
+.trx_popup_inner .trx_popup_title {
+color: #ffffff;
+}
+.trx_popup_inner .trx_popup_button {
+color: #3f2803!important;
+background-color: #ffffff !important;
+}
+.trx_popup_inner .trx_popup_button:hover {
+color: #ffffff !important;
+background-color: #3f2803 !important;
+}
